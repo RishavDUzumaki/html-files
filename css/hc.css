@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'mff';
+    src: url(fonts/herculanum.otf);
+    /* fill: url(im/grad.jpg); */
+
+}
+body{
+    background-color: rgb(5, 0, 28);
+     /* background-image:url(https://media.giphy.com/media/9JxkPTP3alOykb8PmQ/giphy.gif); background-repeat:repeat;background-size:cover; */
+}
+.baro{
+    background-color: rgba(239, 8, 93, 0.763);
+}
+.nvcell{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    /* text-align: center; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 1em;
+    display: inline-block;
+}
+.container-fluid{
+  padding: 0% 1% 0%;
+  
+}
+.brnd{
+    letter-spacing: 1.5px;
+}  
+.bset{
+    margin-bottom: 1em ;
+}
+.nvcell:hover{
+    color: gold;
+}
+@media (min-width: 1400px) {
+    .brnd{
+        margin-right: 40rem;
+    }
+
+    
+}
+@media(min-width: 625px){
+    .but{
+        margin-left: 6rem;
+    }
+
+}
+
+.ft{
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    padding: 2rem;
+    text-align: center;
+    
+}
+.cont{
+    margin: 5rem 1rem 0;
+}
+.im{
+    height :28rem;
+    width: 25rem;
+    border-radius: 100%;
+    margin: auto;
+}
+.abt{
+    
+    padding: 3rem;
+    background-color: rgba(239, 8, 93, 0.763);
+
+}
+.ctr{
+    text-align: center;
+}
+.abti{
+    font-size: 5rem;
+    color: #05001C;
+    font-family: "Montserrat";
+    font-weight: 900;
+    background-color: rgb(255, 255, 255);
+    display: block;
+    padding: 2rem 2rem 1rem 3rem;
+    margin-top: 6rem;
+}
+.ct{
+    color: rgb(255, 255, 255);
+    font-family: "Montserrat",sans-serif;
+    font-size: 3rem;
+    font-weight: 400;
+    /* font-style: italic; */
+    text-align: center;
+    
+}
